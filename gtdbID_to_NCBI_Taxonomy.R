@@ -1,7 +1,5 @@
 # This code converts GTDB IDs to corresponding NCBI Taxonomy information.
-# It supports batch operations and accepts valid inputs including 
-# a single ID (e.g., "GB_GCA_000010645.1") or a vector of multiple IDs 
-# (e.g., c("GB_GCA_000010645.1", "GB_GCA_000017645.1")).
+# It supports batch operations and accepts valid inputs including a single ID (e.g., "GB_GCA_000010645.1") or a vector of multiple IDs (e.g., c("GB_GCA_000010645.1", "GB_GCA_000017645.1")).
 
 
 library(rentrez)
